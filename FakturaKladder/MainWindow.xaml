@@ -7,7 +7,7 @@
         xmlns:properties="clr-namespace:FakturaKladder.Properties"
         mc:Ignorable="d"
         Title="FakturaKladder" Height="350" Width="525" Closing="Window_Closing">
-    <Grid>
+    <Grid Margin="0,0,0,104">
         <Button x:Name="BtnLogin" Content="Login" HorizontalAlignment="Left" Margin="23,62,0,0" VerticalAlignment="Top" Width="75" Height="20" Click="BtnLogin_Click"/>
         <Label x:Name="LblAgreementGrantToken" Content="Agreement Grant Token:" HorizontalAlignment="Left" Margin="10,31,0,0" VerticalAlignment="Top"/>
         <TextBox x:Name="txtBoxAgreementGrantToken" HorizontalAlignment="Left" Height="23" Margin="154,34,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="353" 
@@ -19,18 +19,14 @@
         <TextBox x:Name="txtBoxAftaleNummer" HorizontalAlignment="Left" Height="23" Margin="103,102,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="80"/>
         <Label x:Name="LblFirmaNavn" Content="Firmanavn:" HorizontalAlignment="Left" Margin="197,98,0,0" VerticalAlignment="Top"/>
         <TextBox x:Name="txtBoxFirmanavn" HorizontalAlignment="Left" Height="23" Margin="269,102,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <Label x:Name="LblDebtors" Content="Debitorer:" HorizontalAlignment="Left" Margin="10,206,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.363,0.253"/>
         <Button x:Name="BtnLogout" Content="Logout" HorizontalAlignment="Left" Margin="108,62,0,0" VerticalAlignment="Top" Width="75" Click="BtnLogout_Click" IsEnabled="False"/>
         <StatusBar x:Name="StatusBarMain" HorizontalAlignment="Left" Height="40" Margin="0,279,0,0" VerticalAlignment="Top" Width="517">
             <Label x:Name="LblStatusBar" Content="Status"/>
 
         </StatusBar>
-        <Button x:Name="BtnGet" Content="GetDebtors" HorizontalAlignment="Left" Margin="78,209,0,0" VerticalAlignment="Top" Width="75" IsEnabled="False" Click="BtnGet_Click"/>
-        <Label x:Name="LblFile" Content="File:" HorizontalAlignment="Left" Margin="10,129,0,0" VerticalAlignment="Top"/>
-        <TextBox x:Name="txtBoxFilename" HorizontalAlignment="Left" Height="23" Margin="103,133,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="324"
-                 Text="{Binding Source={x:Static properties:Settings.Default},Path=CsvFile,Mode=TwoWay}"/>
-        <Button x:Name="BtnBrowse" Content="Browse..." HorizontalAlignment="Left" Margin="432,134,0,0" VerticalAlignment="Top" Width="75" Click="BtnBrowse_Click"/>
-        <Button x:Name="BtnReadFile" Content="Read file" HorizontalAlignment="Left" Margin="103,161,0,0" VerticalAlignment="Top" Width="75" Click="BtnReadFile_Click"/>
+        <Button x:Name="btnReadJson" Content="Read JSON" HorizontalAlignment="Left" Margin="23,142,0,0" VerticalAlignment="Top" Width="75" Click="btnReadJson_Click"/>
+        <Button x:Name="btnCreateInvoice" Content="Create Invoice" HorizontalAlignment="Left" Margin="123,142,0,0" VerticalAlignment="Top" Width="98" Click="btnCreateInvoice_Click"/>
+        <Button x:Name="btnWriteJson" Content="Write JSON" HorizontalAlignment="Left" Margin="23,167,0,0" VerticalAlignment="Top" Width="75" Click="btnWriteJson_Click"/>
 
     </Grid>
 </Window>

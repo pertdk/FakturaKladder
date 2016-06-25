@@ -68,8 +68,8 @@
     <SignManifests>true</SignManifests>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="LumenWorks.Framework.IO, Version=3.9.1.0, Culture=neutral, PublicKeyToken=5ad3ea2f85776344, processorArchitecture=MSIL">
-      <HintPath>..\packages\LumenWorksCsvReader.3.9.1\lib\net20\LumenWorks.Framework.IO.dll</HintPath>
+    <Reference Include="Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.8.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
@@ -108,6 +108,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Member.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -126,6 +127,10 @@
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <None Include="FakturaKladder_TemporaryKey.pfx" />
+    <None Include="Kassererer.json" />
+    <None Include="ManglendeKassererer.json" />
+    <None Include="ManglendeMedlemmer.json" />
+    <None Include="Medlemmer.json" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

@@ -4,7 +4,7 @@ using Microsoft.Win32;
 using System.Collections.Generic;
 using System;
 using System.IO;
-using LumenWorks.Framework.IO.Csv;
+using Newtonsoft.Json;
 
 namespace FakturaKladder
 {
@@ -21,12 +21,50 @@ namespace FakturaKladder
         private EconomicWebServiceSoapClient EconomicSession;
         private string EconomicConnection;
 
-        private Dictionary<string, DebtorHandle> Debtors;
-        private Dictionary<string, ProductHandle> Products;
+
+        private Dictionary<string, Member> Medlemmer;
+        private Dictionary<string, Member> Kassererer;
+
+        private Dictionary<string, Member> manglendeMedlemmer;
+        private Dictionary<string, Member> manglendeKassererer;
+
 
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private string ReadJsonFile( string Filename )
+        {
+            string json = string.Empty;
+            if (File.Exists(Filename))
+            {
+                json = File.ReadAllText(Filename);
+            }
+            else
+            {
+                MessageBox.Show("No such file: " + Filename);
+            }
+            return json;
+        }
+        private void WriteJsonFile( string Filename, string json )
+        {
+            File.WriteAllText(Filename, json);
+        }
+        private string EncodeJson(Dictionary<string, Member> dict)
+        {
+            string json;
+            json = JsonConvert.SerializeObject(dict);
+            return json;
+        }
+
+        private void ParseJson( out Dictionary<string, Member> dict, string json )
+        {
+            dict = JsonConvert.DeserializeObject<Dictionary<string, Member>>(json);
+            foreach( KeyValuePair<string, Member> kv in dict)
+            {
+                (kv.Value).KundeNr = kv.Key;
+            }
         }
 
         private void SetStatus(string status)
@@ -52,10 +90,9 @@ namespace FakturaKladder
             txtBoxAftaleNummer.Text = agreementNo;
             string companyName = EconomicSession.Company_GetName(company);
             txtBoxFirmanavn.Text = companyName;
-            SetStatus("Login succesfull!");
             BtnLogin.IsEnabled = false;
             BtnLogout.IsEnabled = true;
-            BtnGet.IsEnabled = true;
+            SetStatus("Login succesfull!");
         }
         private void BtnLogin_Click(object sender, RoutedEventArgs e)
         {
@@ -79,82 +116,6 @@ namespace FakturaKladder
             Logout();
         }
 
-        private void GetDebtors()
-        {
-            if (EconomicSession != null)
-            {
-                Debtors = new Dictionary<string, DebtorHandle>();
-                //AccountHandle[] Accounts = EconomicSession.Account_GetAll();
-                DebtorHandle[] eDebtors = EconomicSession.Debtor_GetAll();
-                string nr = "";
-                foreach( DebtorHandle dh in eDebtors)
-                {
-                    nr = EconomicSession.Debtor_GetNumber(dh);
-                    Debtors[nr] = dh;
-                }
-                MessageBox.Show("Debtors gotten");
-            }
-            else
-            {
-                SetStatus("Not logged in!");
-            }
-
-        }
-        private void GetProducts()
-        {
-            if ( EconomicSession!=null )
-            {
-                Products = new Dictionary<string, ProductHandle>();
-                IDictionary<string, ProductData> ProductData = new Dictionary<string, ProductData>();
-                ProductHandle[] eProducts = EconomicSession.Product_GetAll();
-                string nr = "";
-                foreach (ProductHandle ph in eProducts)
-                {
-                    nr = EconomicSession.Product_GetNumber(ph);
-                    ProductData pd = EconomicSession.Product_GetData(ph);
-                    ProductData[nr] = pd;
-                    Products[nr] = ph;
-                }
-                MessageBox.Show("Products gotten");
-            }
-            else
-            {
-                SetStatus("Not logged in!");
-            }
-        }
-
-        private void CreateInvoice()
-        {
-            string debtorId = "202565";
-            // Get Debtor
-            DebtorHandle dh = Debtors[debtorId];
-            if (dh != null)
-            {
-                DateTime dueDate = DateTime.Parse("2016-06-30");
-                string debtorName = EconomicSession.Debtor_GetName(dh);
-                CurrentInvoiceHandle ci_h = EconomicSession.CurrentInvoice_Create(dh);
-                TermOfPaymentHandle term_h = EconomicSession.TermOfPayment_Create("Forfaldsdato", TermOfPaymentType.DueDate, null);
-                EconomicSession.CurrentInvoice_SetTermOfPayment(ci_h, term_h);
-                EconomicSession.CurrentInvoice_SetDueDate(ci_h, dueDate);
-                CurrentInvoiceLineHandle cil_h = EconomicSession.CurrentInvoiceLine_Create(ci_h);
-                EconomicSession.CurrentInvoiceLine_SetProduct(cil_h, Products["1"]);
-                EconomicSession.CurrentInvoiceLine_SetQuantity(cil_h, 1);
-                MessageBox.Show("Invoice created!");
-            }
-            else
-            {
-                MessageBox.Show(" Not found ");
-            }
-
-        }
-
-        private void BtnGet_Click(object sender, RoutedEventArgs e)
-        {
-            GetDebtors();
-            GetProducts();
-            CreateInvoice();
-        }
-
         private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
         {
             try
@@ -171,48 +132,71 @@ namespace FakturaKladder
             }
         }
 
-        private void BtnBrowse_Click(object sender, RoutedEventArgs e)
+        private void btnReadJson_Click(object sender, RoutedEventArgs e)
         {
-            OpenFileDialog openFileDialog = new OpenFileDialog();
-            openFileDialog.DefaultExt = ".csv";
-            openFileDialog.Filter = "CSV Files (.csv) |*.csv";
-            openFileDialog.CheckFileExists = true;
-            openFileDialog.Multiselect = false;
-            if ( openFileDialog.ShowDialog()==true )
-            {
-                txtBoxFilename.Text = openFileDialog.FileName;
-            }
+            string MedlemmerFilename = "..\\..\\Medlemmer.json";
+            string KasserererFilename = "..\\..\\Kassererer.json";
+            string MedlemmerJson = ReadJsonFile(MedlemmerFilename);
+            string KasserererJson = ReadJsonFile(KasserererFilename);
+            ParseJson(out Medlemmer, MedlemmerJson);
+            ParseJson(out Kassererer, KasserererJson);
+            MessageBox.Show("Read " + Medlemmer.Count + " members, and " + Kassererer.Count + " cashiers");
+
         }
 
-        private void ReadFile(string fileName)
+        private void btnCreateInvoice_Click(object sender, RoutedEventArgs e)
         {
-            if (File.Exists(fileName))
+            int antalMedlemFakturaer = 0;
+            int antalKassererFakturaer = 0;
+            manglendeMedlemmer = new Dictionary<string, Member>(Medlemmer.Count);
+            manglendeKassererer = new Dictionary<string, Member>(Kassererer.Count);
+
+            foreach( KeyValuePair<string,Member> kv in Medlemmer)
             {
-                CsvReader csv = new CsvReader(new StreamReader(fileName, System.Text.Encoding.Default), false, ';');
-                csv.MissingFieldAction = MissingFieldAction.ReplaceByEmpty;
-                csv.DefaultParseErrorAction = ParseErrorAction.ThrowException;
-                int rowCount = 0;
-                MessageBox.Show("FieldCount"+csv.FieldCount);
-                int kundeNrCol = csv.FieldCount - 8;
-                int navnCol = csv.FieldCount - 7;
-                string kundeNr = csv[rowCount, kundeNrCol];
-                string navn = csv[rowCount, navnCol];
-                while (csv.ReadNextRecord())
-                {   
-                    rowCount++;
-                    if (csv[rowCount, kundeNrCol].Trim() != ""
-                        && csv[rowCount, navnCol].Trim() != "")
+                if( kv.Value.CreateInvoice(EconomicSession) )
+                {
+                    antalMedlemFakturaer++;
+                }
+                else
+                {
+                    if ( !manglendeMedlemmer.ContainsKey( kv.Key ) )
                     {
-                        kundeNr = csv[rowCount, kundeNrCol];
-                        navn = csv[rowCount, navnCol];
+                        manglendeMedlemmer[kv.Key] = kv.Value;
                     }
                 }
-                MessageBox.Show("Kundenr: " + kundeNr + "\nNavn: " + navn);
             }
+            MessageBox.Show("Created " + antalMedlemFakturaer + " member invoices");
+            string manglendeMedlemmerJson = EncodeJson(manglendeMedlemmer);
+
+            foreach (KeyValuePair<string, Member> kv in Kassererer)
+            {
+                if (kv.Value.CreateInvoice(EconomicSession))
+                {
+                    antalKassererFakturaer++;
+                }
+                else
+                {
+                    if (!manglendeKassererer.ContainsKey(kv.Key) )
+                    {
+                        manglendeKassererer[kv.Key] = kv.Value;
+                    }
+                }
+            }
+            MessageBox.Show("Created " + antalKassererFakturaer+ " cashier invoices");
+
         }
-        private void BtnReadFile_Click(object sender, RoutedEventArgs e)
+
+        private void btnWriteJson_Click(object sender, RoutedEventArgs e)
         {
-            ReadFile(txtBoxFilename.Text);
+            string MedlemmerFilename = "..\\..\\ManglendeMedlemmer.json";
+            string KasserererFilename = "..\\..\\ManglendeKassererer.json";
+
+            string MedlemmerJson = EncodeJson(manglendeMedlemmer);
+            string KasserererJson = EncodeJson(manglendeKassererer);
+
+            WriteJsonFile(MedlemmerFilename, MedlemmerJson);
+            WriteJsonFile(KasserererFilename, KasserererJson);
+            MessageBox.Show("Wrote " + manglendeMedlemmer.Count + " members, and " + manglendeKassererer.Count + " cashiers");
         }
     }
 }

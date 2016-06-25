@@ -1,0 +1,911 @@
+﻿{
+ "203072": {
+   "Navn":"Allan  Andersen",
+   "Email":"Aan@bdo.dk",
+   "KundeGruppe":"2",
+   "Antal":"1",
+   "Sum":"485,00",
+   "FakturaNr":"946",
+   "Betaling":"28.06.2016"
+ },
+ "202565": {
+   "Navn":"Anders  Uhrenholt",
+   "Email":"Andersuhrenholt23@gmail.com",
+   "KundeGruppe":"2",
+   "Antal":"1",
+   "Sum":"485,00",
+   "FakturaNr":"947",
+   "Betaling":"28.06.2016"
+ },
+ "202319": {
+   "Navn":"Brian  Hinrichsen",
+   "Email":"Bhi@sport.dk",
+   "KundeGruppe":"2",
+   "Antal":"1",
+   "Sum":"485,00",
+   "FakturaNr":"948",
+   "Betaling":"28.06.2016"
+ },
+ "202704": {
+   "Navn":"Brian  Lentz",
+   "Email":"Brian@fam-lentz.dk",
+   "KundeGruppe":"2",
+   "Antal":"1",
+   "Sum":"485,00",
+   "FakturaNr":"949",
+   "Betaling":"28.06.2016"
+ },
+ "202314": {
+   "Navn":"Christian  Conradsen",
+   "Email":"Info@nynordisk.dk",
+   "KundeGruppe":"2",
+   "Antal":"1",
+   "Sum":"485,00",
+   "FakturaNr":"950",
+   "Betaling":"28.06.2016"
+ },
+ "203092": {
+   "Navn":"Christian  Thygesen",
+   "Email":"Chthy@vestas.com",
+   "KundeGruppe":"2",
+   "Antal":"1",
+   "Sum":"485,00",
+   "FakturaNr":"951",
+   "Betaling":"28.06.2016"
+ },
+ "202566": {
+   "Navn":"Henrik  Fjordbak",
+   "Email":"Henrik@fjordbakbyg.dk",
+   "KundeGruppe":"2",
+   "Antal":"1",
+   "Sum":"485,00",
+   "FakturaNr":"952",
+   "Betaling":"28.06.2016"
+ },
+ "202507": {
+   "Navn":"Jacob Thorup Larsen",
+   "Email":"Jacobthoruplarsen@gmail.com",
+   "KundeGruppe":"2",
+   "Antal":"1",
+   "Sum":"485,00",
+   "FakturaNr":"953",
+   "Betaling":"28.06.2016"
+ },
+ "202192": {
+   "Navn":"Jan  Hjorth",
+   "Email":"Jj.hjorth@privat.dk",
+   "KundeGruppe":"2",
+   "Antal":"1",
+   "Sum":"485,00",
+   "FakturaNr":"954",
+   "Betaling":"28.06.2016"
+ },
+ "202323": {
+   "Navn":"Jan-iver  Christiansen",
+   "Email":"Jan-iver@vennelyst.dk",
+   "KundeGruppe":"2",
+   "Antal":"1",
+   "Sum":"485,00",
+   "FakturaNr":"955",
+   "Betaling":"28.06.2016"
+ },
+ "202964": {
+   "Navn":"Jens  Pedersen",
+   "Email":"Jogspedersen@gmail.com",
+   "KundeGruppe":"2",
+   "Antal":"1",
+   "Sum":"485,00",
+   "FakturaNr":"956",
+   "Betaling":"28.06.2016"
+ },
+ "203073": {
+   "Navn":"Jesper Arent Jørgensen",
+   "Email":"Jesper@joerg.as",
+   "KundeGruppe":"2",
+   "Antal":"1",
+   "Sum":"485,00",
+   "FakturaNr":"957",
+   "Betaling":"28.06.2016"
+ },
+ "202845": {
+   "Navn":"Jørgen Strøm Kristensen",
+   "Email":"Nethippie@gmail.com",
+   "KundeGruppe":"2",
+   "Antal":"1",
+   "Sum":"485,00",
+   "FakturaNr":"958",
+   "Betaling":"28.06.2016"
+ },
+ "203049": {
+   "Navn":"Jørn  Dyrnesli  Nielsen",
+   "Email":"Jdn@skagen-tomrer.dk",
+   "KundeGruppe":"2",
+   "Antal":"1",
+   "Sum":"485,00",
+   "FakturaNr":"959",
+   "Betaling":"28.06.2016"
+ },
+ "202587": {
+   "Navn":"Klaus Gade Fredriksen",
+   "Email":"Klaus@gade.mail.dk",
+   "KundeGruppe":"2",
+   "Antal":"1",
+   "Sum":"485,00",
+   "FakturaNr":"960",
+   "Betaling":"28.06.2016"
+ },
+ "201661": {
+   "Navn":"Kristian Højgaard Madsen",
+   "Email":"Khm@advokatfirmaet.dk",
+   "KundeGruppe":"2",
+   "Antal":"1",
+   "Sum":"485,00",
+   "FakturaNr":"961",
+   "Betaling":"28.06.2016"
+ },
+ "202943": {
+   "Navn":"Mads  Doré  Hansen",
+   "Email":"Dore@madsdore.dk",
+   "KundeGruppe":"2",
+   "Antal":"1",
+   "Sum":"485,00",
+   "FakturaNr":"962",
+   "Betaling":"28.06.2016"
+ },
+ "202957": {
+   "Navn":"Michael  Isaksen",
+   "Email":"Michaelisaksen@live.dk",
+   "KundeGruppe":"2",
+   "Antal":"1",
+   "Sum":"485,00",
+   "FakturaNr":"963",
+   "Betaling":"28.06.2016"
+ },
+ "202505": {
+   "Navn":"Morten  Aagaard",
+   "Email":"M@morten-aagaard.dk",
+   "KundeGruppe":"2",
+   "Antal":"1",
+   "Sum":"485,00",
+   "FakturaNr":"964",
+   "Betaling":"28.06.2016"
+ },
+ "202524": {
+   "Navn":"Niels Birger Nordmann",
+   "Email":"Niels@primeocean.dk",
+   "KundeGruppe":"2",
+   "Antal":"1",
+   "Sum":"485,00",
+   "FakturaNr":"965",
+   "Betaling":"28.06.2016"
+ },
+ "202863": {
+   "Navn":"Ole  Kjær",
+   "Email":"Olekjaer@mail.dk",
+   "KundeGruppe":"2",
+   "Antal":"1",
+   "Sum":"485,00",
+   "FakturaNr":"966",
+   "Betaling":"28.06.2016"
+ },
+ "202655": {
+   "Navn":"Palle  Rye",
+   "Email":"Pr@pallerye.dk",
+   "KundeGruppe":"2",
+   "Antal":"1",
+   "Sum":"485,00",
+   "FakturaNr":"967",
+   "Betaling":"28.06.2016"
+ },
+ "201642": {
+   "Navn":"Poul  Bøgh",
+   "Email":"Aaseogpoulboegh@os.dk",
+   "KundeGruppe":"2",
+   "Antal":"1",
+   "Sum":"485,00",
+   "FakturaNr":"968",
+   "Betaling":"28.06.2016"
+ },
+ "202862": {
+   "Navn":"Roald  Førgaard",
+   "Email":"Rforgaard@hotmail.com",
+   "KundeGruppe":"2",
+   "Antal":"1",
+   "Sum":"485,00",
+   "FakturaNr":"969",
+   "Betaling":"28.06.2016"
+ },
+ "202410": {
+   "Navn":"Siggi  Strandeng",
+   "Email":"Siggi@golfparkenfrederikshavn.dk",
+   "KundeGruppe":"2",
+   "Antal":"1",
+   "Sum":"485,00",
+   "FakturaNr":"970",
+   "Betaling":"28.06.2016"
+ },
+ "202956": {
+   "Navn":"Søren  Tranholm",
+   "Email":"S.tranholm@gmail.com",
+   "KundeGruppe":"2",
+   "Antal":"1",
+   "Sum":"485,00",
+   "FakturaNr":"971",
+   "Betaling":"28.06.2016"
+ },
+ "203071": {
+   "Navn":"Søren  Brogaard",
+   "Email":"Soren@friskop.dk",
+   "KundeGruppe":"2",
+   "Antal":"1",
+   "Sum":"485,00",
+   "FakturaNr":"972",
+   "Betaling":"28.06.2016"
+ },
+ "202514": {
+   "Navn":"Thomas  Nørgaard",
+   "Email":"Thnrthnr@gmail.com",
+   "KundeGruppe":"2",
+   "Antal":"1",
+   "Sum":"485,00",
+   "FakturaNr":"973",
+   "Betaling":"28.06.2016"
+ },
+ "203070": {
+   "Navn":"Tonny Stordal Johansen",
+   "Email":"Tsj@strandbyelteknik.dk",
+   "KundeGruppe":"2",
+   "Antal":"1",
+   "Sum":"485,00",
+   "FakturaNr":"974",
+   "Betaling":"28.06.2016"
+ },
+ "202360": {
+   "Navn":"Claus  Dalgaard",
+   "Email":"Claus.dalgaard@gmail.com",
+   "KundeGruppe":"4",
+   "Antal":"1",
+   "Sum":"485,00",
+   "FakturaNr":"975",
+   "Betaling":"28.06.2016"
+ },
+ "202855": {
+   "Navn":"Jesper  Dalgaard-knudsen",
+   "Email":"Advokat.dk@webspeed.dk",
+   "KundeGruppe":"4",
+   "Antal":"1",
+   "Sum":"485,00",
+   "FakturaNr":"976",
+   "Betaling":"28.06.2016"
+ },
+ "202321": {
+   "Navn":"Jess V. Laursen",
+   "Email":"Laursenplus@gmail.com",
+   "KundeGruppe":"4",
+   "Antal":"1",
+   "Sum":"485,00",
+   "FakturaNr":"977",
+   "Betaling":"28.06.2016"
+ },
+ "201648": {
+   "Navn":"Jørn  Gadgaard",
+   "Email":"Jg@gadgaardmail.dk",
+   "KundeGruppe":"4",
+   "Antal":"1",
+   "Sum":"485,00",
+   "FakturaNr":"978",
+   "Betaling":"28.06.2016"
+ },
+ "201664": {
+   "Navn":"Niels Jørgen  Nielsen",
+   "Email":"Rnjn@almbrand.dk",
+   "KundeGruppe":"4",
+   "Antal":"1",
+   "Sum":"485,00",
+   "FakturaNr":"979",
+   "Betaling":"28.06.2016"
+ },
+ "202552": {
+   "Navn":"Olav  Noer",
+   "Email":"Noer@bbsyd.dk",
+   "KundeGruppe":"4",
+   "Antal":"1",
+   "Sum":"485,00",
+   "FakturaNr":"980",
+   "Betaling":"28.06.2016"
+ },
+ "202322": {
+   "Navn":"Pauli Lundahl Jeppesen",
+   "Email":"Paulilundahl@mail.tele.dk",
+   "KundeGruppe":"4",
+   "Antal":"1",
+   "Sum":"485,00",
+   "FakturaNr":"981",
+   "Betaling":"28.06.2016"
+ },
+ "201653": {
+   "Navn":"Peter Kjærgaard Jensen",
+   "Email":"Pkg@holrc.dk",
+   "KundeGruppe":"4",
+   "Antal":"1",
+   "Sum":"485,00",
+   "FakturaNr":"982",
+   "Betaling":"28.06.2016"
+ },
+ "202492": {
+   "Navn":"Søren  Lambæk",
+   "Email":"Sl@lem-beslagfabrik.dk",
+   "KundeGruppe":"4",
+   "Antal":"1",
+   "Sum":"485,00",
+   "FakturaNr":"983",
+   "Betaling":"28.06.2016"
+ },
+ "202359": {
+   "Navn":"Ulrich Gorm Albrechtsen",
+   "Email":"Ulrichgorm@gmail.com",
+   "KundeGruppe":"4",
+   "Antal":"1",
+   "Sum":"485,00",
+   "FakturaNr":"984",
+   "Betaling":"28.06.2016"
+ },
+ "203074": {
+   "Navn":"Allan Elsnap Olesen",
+   "Email":"Allan_e_olesen@hotmail.com",
+   "KundeGruppe":"6",
+   "Antal":"1",
+   "Sum":"485,00",
+   "FakturaNr":"985",
+   "Betaling":"28.06.2016"
+ },
+ "201668": {
+   "Navn":"Anders  Thisted",
+   "Email":"Topat7@hotmail.com",
+   "KundeGruppe":"6",
+   "Antal":"1",
+   "Sum":"485,00",
+   "FakturaNr":"986",
+   "Betaling":"28.06.2016"
+ },
+ "201644": {
+   "Navn":"Anders Georg  Christensen",
+   "Email":"Agc@favrskov.dk",
+   "KundeGruppe":"6",
+   "Antal":"1",
+   "Sum":"485,00",
+   "FakturaNr":"987",
+   "Betaling":"28.06.2016"
+ },
+ "202441": {
+   "Navn":"Jesper  Jul",
+   "Email":"Jul@pavillonen.dk",
+   "KundeGruppe":"6",
+   "Antal":"1",
+   "Sum":"485,00",
+   "FakturaNr":"988",
+   "Betaling":"28.06.2016"
+ },
+ "202451": {
+   "Navn":"Karl Johan  Hasselbalch",
+   "Email":"Karljohanhasselbalch@gmail.com",
+   "KundeGruppe":"6",
+   "Antal":"1",
+   "Sum":"485,00",
+   "FakturaNr":"989",
+   "Betaling":"28.06.2016"
+ },
+ "202069": {
+   "Navn":"Ole Damgaard Pedersen",
+   "Email":"Ole.damgaard@adr.dk",
+   "KundeGruppe":"6",
+   "Antal":"1",
+   "Sum":"485,00",
+   "FakturaNr":"990",
+   "Betaling":"28.06.2016"
+ },
+ "202864": {
+   "Navn":"Peter  Nissen",
+   "Email":"Peter@makers.dk",
+   "KundeGruppe":"6",
+   "Antal":"1",
+   "Sum":"485,00",
+   "FakturaNr":"991",
+   "Betaling":"28.06.2016"
+ },
+ "201660": {
+   "Navn":"Torben  Leisgaard Jensen",
+   "Email":"Tlj@wefri.dk",
+   "KundeGruppe":"6",
+   "Antal":"1",
+   "Sum":"485,00",
+   "FakturaNr":"992",
+   "Betaling":"28.06.2016"
+ },
+ "202569": {
+   "Navn":"Allan  Lorentsen",
+   "Email":"Allan.lorentsen@gmail.com",
+   "KundeGruppe":"8",
+   "Antal":"1",
+   "Sum":"485,00",
+   "FakturaNr":"993",
+   "Betaling":"28.06.2016"
+ },
+ "203093": {
+   "Navn":"Claus  Friis",
+   "Email":"Fiddefriis@gmail.com",
+   "KundeGruppe":"8",
+   "Antal":"1",
+   "Sum":"485,00",
+   "FakturaNr":"994",
+   "Betaling":"28.06.2016"
+ },
+ "202935": {
+   "Navn":"Ejvind  Skovsgaard",
+   "Email":"Ejvind@urskou.dk",
+   "KundeGruppe":"8",
+   "Antal":"1",
+   "Sum":"485,00",
+   "FakturaNr":"995",
+   "Betaling":"28.06.2016"
+ },
+ "202814": {
+   "Navn":"Felix  Ratgen",
+   "Email":"Felix@skodborgdaek.dk",
+   "KundeGruppe":"8",
+   "Antal":"1",
+   "Sum":"485,00",
+   "FakturaNr":"996",
+   "Betaling":"28.06.2016"
+ },
+ "202409": {
+   "Navn":"Henrik  Kohberg",
+   "Email":"Henrik@scandinavian.jp",
+   "KundeGruppe":"8",
+   "Antal":"1",
+   "Sum":"485,00",
+   "FakturaNr":"997",
+   "Betaling":"28.06.2016"
+ },
+ "201857": {
+   "Navn":"Henrik  Schmidt",
+   "Email":"Williamsgave@gmail.com",
+   "KundeGruppe":"8",
+   "Antal":"1",
+   "Sum":"485,00",
+   "FakturaNr":"998",
+   "Betaling":"28.06.2016"
+ },
+ "201650": {
+   "Navn":"Jørn  Hermansen",
+   "Email":"Kirstenogj@hermansen.mail.dk",
+   "KundeGruppe":"8",
+   "Antal":"1",
+   "Sum":"485,00",
+   "FakturaNr":"999",
+   "Betaling":"28.06.2016"
+ },
+ "202426": {
+   "Navn":"Kenneth  Quist",
+   "Email":"Mail@kq.dk",
+   "KundeGruppe":"8",
+   "Antal":"1",
+   "Sum":"485,00",
+   "FakturaNr":"1000",
+   "Betaling":"28.06.2016"
+ },
+ "202737": {
+   "Navn":"Lars L. Hansen",
+   "Email":"Llh@abild-el.dk",
+   "KundeGruppe":"8",
+   "Antal":"1",
+   "Sum":"485,00",
+   "FakturaNr":"1001",
+   "Betaling":"28.06.2016"
+ },
+ "202746": {
+   "Navn":"Lars Christian Beier Madsen",
+   "Email":"Lars@beier-madsen.dk",
+   "KundeGruppe":"8",
+   "Antal":"1",
+   "Sum":"485,00",
+   "FakturaNr":"1002",
+   "Betaling":"28.06.2016"
+ },
+ "202428": {
+   "Navn":"Michael  Anker",
+   "Email":"Michael.anker@dk.ey.com",
+   "KundeGruppe":"8",
+   "Antal":"1",
+   "Sum":"485,00",
+   "FakturaNr":"1003",
+   "Betaling":"28.06.2016"
+ },
+ "202055": {
+   "Navn":"Michael Dalbo Pedersen",
+   "Email":"Dalbo@mailme.dk",
+   "KundeGruppe":"8",
+   "Antal":"1",
+   "Sum":"485,00",
+   "FakturaNr":"1004",
+   "Betaling":"28.06.2016"
+ },
+ "202401": {
+   "Navn":"Mikkel  Fisker",
+   "Email":"Trine.mikkel@live.dk",
+   "KundeGruppe":"8",
+   "Antal":"1",
+   "Sum":"485,00",
+   "FakturaNr":"1005",
+   "Betaling":"28.06.2016"
+ },
+ "201655": {
+   "Navn":"Paúl Yde Knudsen",
+   "Email":"Pk@pkagentur.dk",
+   "KundeGruppe":"8",
+   "Antal":"1",
+   "Sum":"485,00",
+   "FakturaNr":"1006",
+   "Betaling":"28.06.2016"
+ },
+ "202438": {
+   "Navn":"Per Duborg Boysen",
+   "Email":"Per@pdb.dk",
+   "KundeGruppe":"8",
+   "Antal":"1",
+   "Sum":"485,00",
+   "FakturaNr":"1007",
+   "Betaling":"28.06.2016"
+ },
+ "201662": {
+   "Navn":"Peter  Maindal",
+   "Email":"Peter@vendlet.dk",
+   "KundeGruppe":"8",
+   "Antal":"1",
+   "Sum":"485,00",
+   "FakturaNr":"1008",
+   "Betaling":"28.06.2016"
+ },
+ "202427": {
+   "Navn":"Peter  Rønn",
+   "Email":"Paco@esenet.dk",
+   "KundeGruppe":"8",
+   "Antal":"1",
+   "Sum":"485,00",
+   "FakturaNr":"1009",
+   "Betaling":"28.06.2016"
+ },
+ "202636": {
+   "Navn":"Sigurd  Blöndal",
+   "Email":"Sb@danperform.com",
+   "KundeGruppe":"8",
+   "Antal":"1",
+   "Sum":"485,00",
+   "FakturaNr":"1010",
+   "Betaling":"28.06.2016"
+ },
+ "201840": {
+   "Navn":"Søren  Aldal",
+   "Email":"Soren.aldal@mail.dk",
+   "KundeGruppe":"8",
+   "Antal":"1",
+   "Sum":"485,00",
+   "FakturaNr":"1011",
+   "Betaling":"28.06.2016"
+ },
+ "202627": {
+   "Navn":"Søren  Pedersen",
+   "Email":"Soren.pedersen@hotmail.com",
+   "KundeGruppe":"8",
+   "Antal":"1",
+   "Sum":"485,00",
+   "FakturaNr":"1012",
+   "Betaling":"28.06.2016"
+ },
+ "202493": {
+   "Navn":"Thomas  Hestbæk",
+   "Email":"Tkhp@mail.dk",
+   "KundeGruppe":"8",
+   "Antal":"1",
+   "Sum":"485,00",
+   "FakturaNr":"1013",
+   "Betaling":"28.06.2016"
+ },
+ "201671": {
+   "Navn":"Ulrik  Frederiksen",
+   "Email":"Uf@hfr-rodekro.dk",
+   "KundeGruppe":"8",
+   "Antal":"1",
+   "Sum":"485,00",
+   "FakturaNr":"1014",
+   "Betaling":"28.06.2016"
+ },
+ "202034": {
+   "Navn":"Visti  Kristensen",
+   "Email":"Visti@vkdata.dk",
+   "KundeGruppe":"8",
+   "Antal":"1",
+   "Sum":"485,00",
+   "FakturaNr":"1015",
+   "Betaling":"28.06.2016"
+ },
+ "201927": {
+   "Navn":"Anders  Jakobsen",
+   "Email":"Aja@aluscan.dk",
+   "KundeGruppe":"10",
+   "Antal":"1",
+   "Sum":"485,00",
+   "FakturaNr":"1016",
+   "Betaling":"28.06.2016"
+ },
+ "202315": {
+   "Navn":"Claus Amtrup Andersen",
+   "Email":"Caa@eurisco.dk",
+   "KundeGruppe":"10",
+   "Antal":"1",
+   "Sum":"485,00",
+   "FakturaNr":"1017",
+   "Betaling":"28.06.2016"
+ },
+ "202489": {
+   "Navn":"Jesper  Andersen",
+   "Email":"Meiling.andersen@privat.dk",
+   "KundeGruppe":"10",
+   "Antal":"1",
+   "Sum":"485,00",
+   "FakturaNr":"1018",
+   "Betaling":"28.06.2016"
+ },
+ "202526": {
+   "Navn":"Jesper  Timming",
+   "Email":"Jt@linde-el.dk",
+   "KundeGruppe":"10",
+   "Antal":"1",
+   "Sum":"485,00",
+   "FakturaNr":"1019",
+   "Betaling":"28.06.2016"
+ },
+ "203051": {
+   "Navn":"Jesper  Steenbuck",
+   "Email":"Jst130@maerskdrilling.com",
+   "KundeGruppe":"10",
+   "Antal":"1",
+   "Sum":"485,00",
+   "FakturaNr":"1020",
+   "Betaling":"28.06.2016"
+ },
+ "202504": {
+   "Navn":"Jørgen  Færch",
+   "Email":"Mrfaerch@hotmail.com",
+   "KundeGruppe":"10",
+   "Antal":"1",
+   "Sum":"485,00",
+   "FakturaNr":"1021",
+   "Betaling":"28.06.2016"
+ },
+ "202326": {
+   "Navn":"Kim  Ahle",
+   "Email":"Kimah@dongenergy.dk",
+   "KundeGruppe":"10",
+   "Antal":"1",
+   "Sum":"485,00",
+   "FakturaNr":"1022",
+   "Betaling":"28.06.2016"
+ },
+ "202491": {
+   "Navn":"Morten  Wagner",
+   "Email":"Morten@flyingfamilytour.dk",
+   "KundeGruppe":"10",
+   "Antal":"1",
+   "Sum":"485,00",
+   "FakturaNr":"1023",
+   "Betaling":"28.06.2016"
+ },
+ "202574": {
+   "Navn":"Nicolai  Voll",
+   "Email":"Nv@jdm.dk",
+   "KundeGruppe":"10",
+   "Antal":"1",
+   "Sum":"485,00",
+   "FakturaNr":"1024",
+   "Betaling":"28.06.2016"
+ },
+ "202515": {
+   "Navn":"Peter Filip Juul",
+   "Email":"P-f-j@hotmail.com",
+   "KundeGruppe":"10",
+   "Antal":"1",
+   "Sum":"485,00",
+   "FakturaNr":"1025",
+   "Betaling":"28.06.2016"
+ },
+ "201658": {
+   "Navn":"Søren  Kristensen",
+   "Email":"Pisacco@live.dk",
+   "KundeGruppe":"10",
+   "Antal":"1",
+   "Sum":"485,00",
+   "FakturaNr":"1026",
+   "Betaling":"28.06.2016"
+ },
+ "201649": {
+   "Navn":"Vilhelm ÅMand Hansen",
+   "Email":"Vah@vrigstedgaard.dk",
+   "KundeGruppe":"10",
+   "Antal":"1",
+   "Sum":"485,00",
+   "FakturaNr":"1027",
+   "Betaling":"28.06.2016"
+ },
+ "202411": {
+   "Navn":"Jan  Hjelvang",
+   "Email":"Jan@hjelvang.dk",
+   "KundeGruppe":"12",
+   "Antal":"1",
+   "Sum":"485,00",
+   "FakturaNr":"1028",
+   "Betaling":"28.06.2016"
+ },
+ "203068": {
+   "Navn":"Lars   Gabe",
+   "Email":"Lg@ice.dk",
+   "KundeGruppe":"12",
+   "Antal":"1",
+   "Sum":"485,00",
+   "FakturaNr":"1029",
+   "Betaling":"28.06.2016"
+ },
+ "203065": {
+   "Navn":"Max  Jakobsen",
+   "Email":"Mj@axson.dk",
+   "KundeGruppe":"12",
+   "Antal":"1",
+   "Sum":"485,00",
+   "FakturaNr":"1030",
+   "Betaling":"28.06.2016"
+ },
+ "202453": {
+   "Navn":"Thomas  Runge",
+   "Email":"Thomas@rungeservice.dk",
+   "KundeGruppe":"12",
+   "Antal":"1",
+   "Sum":"485,00",
+   "FakturaNr":"1031",
+   "Betaling":"28.06.2016"
+ },
+ "202892": {
+   "Navn":"Brandur  Ellingsgaard",
+   "Email":"Be@axiaadvokater.dk",
+   "KundeGruppe":"14",
+   "Antal":"1",
+   "Sum":"485,00",
+   "FakturaNr":"1032",
+   "Betaling":"28.06.2016"
+ },
+ "202856": {
+   "Navn":"Henrik H. Mikkelsen",
+   "Email":"Henrik.h.mikkelsen@gmail.dk",
+   "KundeGruppe":"14",
+   "Antal":"1",
+   "Sum":"485,00",
+   "FakturaNr":"1033",
+   "Betaling":"28.06.2016"
+ },
+ "202888": {
+   "Navn":"Jens  Brorsen",
+   "Email":"Jens@brorsen.net",
+   "KundeGruppe":"14",
+   "Antal":"1",
+   "Sum":"485,00",
+   "FakturaNr":"1034",
+   "Betaling":"28.06.2016"
+ },
+ "201783": {
+   "Navn":"Michael André Rothmann",
+   "Email":"Michael@rothmann.dk",
+   "KundeGruppe":"14",
+   "Antal":"1",
+   "Sum":"485,00",
+   "FakturaNr":"1035",
+   "Betaling":"28.06.2016"
+ },
+ "202889": {
+   "Navn":"Morten Møller Jensen",
+   "Email":"Sundvej@live.dk",
+   "KundeGruppe":"14",
+   "Antal":"1",
+   "Sum":"485,00",
+   "FakturaNr":"1036",
+   "Betaling":"28.06.2016"
+ },
+ "202508": {
+   "Navn":"Nils Kofod Egestad",
+   "Email":"Kofod.egestad@privat.dk",
+   "KundeGruppe":"14",
+   "Antal":"1",
+   "Sum":"485,00",
+   "FakturaNr":"1037",
+   "Betaling":"28.06.2016"
+ },
+ "202573": {
+   "Navn":"Palle  Hemmingsen",
+   "Email":"Phe@semvac.dk",
+   "KundeGruppe":"14",
+   "Antal":"1",
+   "Sum":"485,00",
+   "FakturaNr":"1038",
+   "Betaling":"28.06.2016"
+ },
+ "203059": {
+   "Navn":"Sonny  Petersen",
+   "Email":"Mail@sonnyheinz.dk",
+   "KundeGruppe":"14",
+   "Antal":"1",
+   "Sum":"485,00",
+   "FakturaNr":"1039",
+   "Betaling":"28.06.2016"
+ },
+ "202440": {
+   "Navn":"Søren Kjeldsen Eltorp",
+   "Email":"Eltorp@privat.dk",
+   "KundeGruppe":"14",
+   "Antal":"1",
+   "Sum":"485,00",
+   "FakturaNr":"1040",
+   "Betaling":"28.06.2016"
+ },
+ "202945": {
+   "Navn":"Uffe   Bjerregård",
+   "Email":"Uffe.bjerregaard@hotmail.com",
+   "KundeGruppe":"14",
+   "Antal":"1",
+   "Sum":"485,00",
+   "FakturaNr":"1041",
+   "Betaling":"28.06.2016"
+ },
+ "202974": {
+   "Navn":"Erik  Liljencrantz",
+   "Email":"Erik@eldata.se",
+   "KundeGruppe":"16",
+   "Antal":"1",
+   "Sum":"485,00",
+   "FakturaNr":"1042",
+   "Betaling":"28.06.2016"
+ },
+ "201656": {
+   "Navn":"Gunnar Blem Kofoed",
+   "Email":"Ringebygaard@mail.dk",
+   "KundeGruppe":"16",
+   "Antal":"1",
+   "Sum":"485,00",
+   "FakturaNr":"1043",
+   "Betaling":"28.06.2016"
+ },
+ "201645": {
+   "Navn":"Michael  Dam",
+   "Email":"Md@formula-micro.dk",
+   "KundeGruppe":"16",
+   "Antal":"1",
+   "Sum":"485,00",
+   "FakturaNr":"1044",
+   "Betaling":"28.06.2016"
+ },
+ "201666": {
+   "Navn":"Peter  Schnautz",
+   "Email":"Peter.schnautz@t-online.de",
+   "KundeGruppe":"16",
+   "Antal":"1",
+   "Sum":"485,00",
+   "FakturaNr":"1045",
+   "Betaling":"28.06.2016"
+ },
+ "201641": {
+   "Navn":"Torben  Bødtker",
+   "Email":"Df@dragorfort.dk",
+   "KundeGruppe":"16",
+   "Antal":"1",
+   "Sum":"485,00",
+   "FakturaNr":"1046",
+   "Betaling":"28.06.2016"
+ }
+}

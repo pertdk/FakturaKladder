@@ -1,0 +1,668 @@
+{
+ "1": {
+   "Navn":"Kasserer Ex-table 001 - Kjellerup",
+   "Email":"Jboegild@deloitte.dk",
+   "KundeGruppe":"5",
+   "Antal":"9",
+   "Sum":"4.365,00",
+   "FakturaNr":"1047",
+   "Betaling":"28.06.2016"
+ },
+ "2": {
+   "Navn":"Kasserer Ex-table 002 - Tønder",
+   "Email":"No-reply1@ex-table.dk",
+   "KundeGruppe": "7",
+   "Antal":"2",
+   "Sum":"970,00",
+   "FakturaNr":"1048",
+   "Betaling":"28.06.2016"
+ },
+ "3": {
+   "Navn":"Kasserer Ex-table 003 - Køge",
+   "Email":"Erik@barfoed.dk",
+   "KundeGruppe":"13",
+   "Antal":"3",
+   "Sum":"1.455,00",
+   "FakturaNr":"1049",
+   "Betaling":"28.06.2016"
+ },
+ "6": {
+   "Navn":"Kasserer Ex-table 006 - Super Six",
+   "Email":"Vestermann@privat.dk",
+   "KundeGruppe":"11",
+   "Antal":"1",
+   "Sum":"485,00",
+   "FakturaNr":"1050",
+   "Betaling":"28.06.2016"
+ },
+ "10": {
+   "Navn":"Kasserer Ex-table 010 - Hjørring",
+   "Email":"Anders@jmcas.dk",
+   "KundeGruppe":"1",
+   "Antal":"3",
+   "Sum":"1.455,00",
+   "FakturaNr":"1051",
+   "Betaling":"28.06.2016"
+ },
+ "11": {
+   "Navn":"Kasserer Ex-table 011 - Frederiksberg",
+   "Email":"Jo@janusolesen.dk",
+   "KundeGruppe":"15",
+   "Antal":"5",
+   "Sum":"2.425,00",
+   "FakturaNr":"1052",
+   "Betaling":"28.06.2016"
+ },
+ "18": {
+   "Navn":"Kasserer Ex-table 018 - Sorø",
+   "Email":"Gejo@soroe.dk",
+   "KundeGruppe":"13",
+   "Antal":"9",
+   "Sum":"4.365,00",
+   "FakturaNr":"1053",
+   "Betaling":"28.06.2016"
+ },
+ "19": {
+   "Navn":"Kasserer Ex-table 019 - Holstebro",
+   "Email":"Kuno@kn-tag.dk",
+   "KundeGruppe":"3",
+   "Antal":"14",
+   "Sum":"6.790,00",
+   "FakturaNr":"1054",
+   "Betaling":"28.06.2016"
+ },
+ "23": {
+   "Navn":"Kasserer Ex-table 023 - Næstved",
+   "Email":"Susannehenrik@mail.dk",
+   "KundeGruppe":"13",
+   "Antal":"2",
+   "Sum":"970,00",
+   "FakturaNr":"1055",
+   "Betaling":"28.06.2016"
+ },
+ "24": {
+   "Navn":"Kasserer Ex-table 024 - Ringkøbing",
+   "Email":"Lt@klittens-tomrer.dk",
+   "KundeGruppe":"3",
+   "Antal":"14",
+   "Sum":"6.790,00",
+   "FakturaNr":"1056",
+   "Betaling":"28.06.2016"
+ },
+ "27": {
+   "Navn":"Kasserer Ex-table 027 - Slagelse",
+   "Email":"Skrivtilpeter@yahoo.com",
+   "KundeGruppe":"13",
+   "Antal":"4",
+   "Sum":"1.940,00",
+   "FakturaNr":"1057",
+   "Betaling":"28.06.2016"
+ },
+ "28": {
+   "Navn":"Kasserer Ex-table 028 - Amager",
+   "Email":"Allan.erbs@webspeed.dk",
+   "KundeGruppe":"15",
+   "Antal":"7",
+   "Sum":"3.395,00",
+   "FakturaNr":"1058",
+   "Betaling":"28.06.2016"
+ },
+ "29": {
+   "Navn":"Kasserer Ex-table 029 - Brande",
+   "Email":"Holm.tune@gmail.com",
+   "KundeGruppe":"3",
+   "Antal":"21",
+   "Sum":"10.185,00",
+   "FakturaNr":"1059",
+   "Betaling":"28.06.2016"
+ },
+ "30": {
+   "Navn":"Kasserer Ex-table 030 - ÅRhus",
+   "Email":"Nielsholmen@mail.dk",
+   "KundeGruppe":"5",
+   "Antal":"33",
+   "Sum":"16.005,00",
+   "FakturaNr":"1060",
+   "Betaling":"28.06.2016"
+ },
+ "33": {
+   "Navn":"Kasserer Ex-table 033 - Thisted",
+   "Email":"St@fastplast.dk",
+   "KundeGruppe":"3",
+   "Antal":"18",
+   "Sum":"8.730,00",
+   "FakturaNr":"1061",
+   "Betaling":"28.06.2016"
+ },
+ "34": {
+   "Navn":"Kasserer Ex-table 034 - Ribe",
+   "Email":"Ploegstrup@stofanet.dk",
+   "KundeGruppe":"7",
+   "Antal":"18",
+   "Sum":"8.730,00",
+   "FakturaNr":"1062",
+   "Betaling":"28.06.2016"
+ },
+ "37": {
+   "Navn":"Kasserer Ex-table 037 - Maribo",
+   "Email":"Jb@buchognoergaard.dk",
+   "KundeGruppe":"13",
+   "Antal":"11",
+   "Sum":"5.335,00",
+   "FakturaNr":"1063",
+   "Betaling":"28.06.2016"
+ },
+ "38": {
+   "Navn":"Kasserer Ex-table 038 - Svendborg",
+   "Email":"Pederp@taasingemail.dk",
+   "KundeGruppe":"9",
+   "Antal":"13",
+   "Sum":"6.305,00",
+   "FakturaNr":"1064",
+   "Betaling":"28.06.2016"
+ },
+ "40": {
+   "Navn":"Kasserer Ex-table 040 - Herning",
+   "Email":"Sten@licht-andersen.dk",
+   "KundeGruppe":"3",
+   "Antal":"27",
+   "Sum":"13.095,00",
+   "FakturaNr":"1065",
+   "Betaling":"28.06.2016"
+ },
+ "41": {
+   "Navn":"Kasserer Ex-table 041 - Helsingør",
+   "Email":"Martin.p@ure-smykker.dk",
+   "KundeGruppe":"11",
+   "Antal":"9",
+   "Sum":"4.365,00",
+   "FakturaNr":"1066",
+   "Betaling":"28.06.2016"
+ },
+ "44": {
+   "Navn":"Kasserer Ex-table 044 - Skive",
+   "Email":"Artie@mail.dk",
+   "KundeGruppe":"3",
+   "Antal":"9",
+   "Sum":"4.365,00",
+   "FakturaNr":"1067",
+   "Betaling":"28.06.2016"
+ },
+ "46": {
+   "Navn":"Kasserer Ex-table 046 - Nykøbing Mors",
+   "Email":"Henrik@2plus5.dk",
+   "KundeGruppe":"3",
+   "Antal":"10",
+   "Sum":"4.850,00",
+   "FakturaNr":"1068",
+   "Betaling":"28.06.2016"
+ },
+ "47": {
+   "Navn":"Kasserer Ex-table 047 - Kalundborg",
+   "Email":"Tmsi@novozymes.com",
+   "KundeGruppe":"11",
+   "Antal":"11",
+   "Sum":"5.335,00",
+   "FakturaNr":"1069",
+   "Betaling":"28.06.2016"
+ },
+ "50": {
+   "Navn":"Kasserer Ex-table 050 - Varde",
+   "Email":"Alex@ao-elteknik.dk",
+   "KundeGruppe":"7",
+   "Antal":"6",
+   "Sum":"2.910,00",
+   "FakturaNr":"1070",
+   "Betaling":"28.06.2016"
+ },
+ "51": {
+   "Navn":"Kasserer Ex-table 051 - Korsør",
+   "Email":"Peterkimer@tdcadsl.dk",
+   "KundeGruppe":"13",
+   "Antal":"27",
+   "Sum":"13.095,00",
+   "FakturaNr":"1071",
+   "Betaling":"28.06.2016"
+ },
+ "52": {
+   "Navn":"Kasserer Ex-table 052 - Rønne",
+   "Email":"Lf@jf-data.com",
+   "KundeGruppe":"15",
+   "Antal":"14",
+   "Sum":"6.790,00",
+   "FakturaNr":"1072",
+   "Betaling":"28.06.2016"
+ },
+ "53": {
+   "Navn":"Kasserer Ex-table 053 - Odder",
+   "Email":"Lpj@mac.com",
+   "KundeGruppe":"5",
+   "Antal":"10",
+   "Sum":"4.850,00",
+   "FakturaNr":"1073",
+   "Betaling":"28.06.2016"
+ },
+ "57": {
+   "Navn":"Kasserer Ex-table 057 - Valby-vesterbro",
+   "Email":"Erlingfris@frisaps.dk",
+   "KundeGruppe":"15",
+   "Antal":"12",
+   "Sum":"5.820,00",
+   "FakturaNr":"1074",
+   "Betaling":"28.06.2016"
+ },
+ "63": {
+   "Navn":"Kasserer Ex-table 063 - Struer",
+   "Email":"Karstenhjorth@gmail.com",
+   "KundeGruppe":"3",
+   "Antal":"22",
+   "Sum":"10.670,00",
+   "FakturaNr":"1075",
+   "Betaling":"28.06.2016"
+ },
+ "64": {
+   "Navn":"Kasserer Ex-table 064 - Odense",
+   "Email":"Vkirkeby@hotmail.com",
+   "KundeGruppe":"9",
+   "Antal":"13",
+   "Sum":"6.305,00",
+   "FakturaNr":"1076",
+   "Betaling":"28.06.2016"
+ },
+ "65": {
+   "Navn":"Kasserer Ex-table 065 - Skælskør",
+   "Email":"Krog-meyer@xl-fuglebjerg.dk",
+   "KundeGruppe":"13",
+   "Antal":"23",
+   "Sum":"11.155,00",
+   "FakturaNr":"1077",
+   "Betaling":"28.06.2016"
+ },
+ "71": {
+   "Navn":"Kasserer Ex-table 071 - Birkerød",
+   "Email":"Stef_weber@hotmail.com",
+   "KundeGruppe":"11",
+   "Antal":"6",
+   "Sum":"2.910,00",
+   "FakturaNr":"1078",
+   "Betaling":"28.06.2016"
+ },
+ "72": {
+   "Navn":"Kasserer Ex-table 072 - Helsinge",
+   "Email":"Tehelsinge@image.dk",
+   "KundeGruppe":"11",
+   "Antal":"5",
+   "Sum":"2.425,00",
+   "FakturaNr":"1079",
+   "Betaling":"28.06.2016"
+ },
+ "73": {
+   "Navn":"Kasserer Ex-table 073 - Hellerup",
+   "Email":"Christian@lundgaard.dk",
+   "KundeGruppe":"15",
+   "Antal":"2",
+   "Sum":"970,00",
+   "FakturaNr":"1080",
+   "Betaling":"28.06.2016"
+ },
+ "74": {
+   "Navn":"Kasserer Ex-table 074 - Faxe",
+   "Email":"Snedgaard@mail.tele.dk",
+   "KundeGruppe":"13",
+   "Antal":"12",
+   "Sum":"5.820,00",
+   "FakturaNr":"1081",
+   "Betaling":"28.06.2016"
+ },
+ "75": {
+   "Navn":"Kasserer Ex-table 075 - Skanderborg",
+   "Email":"Joeriksen@live.dk",
+   "KundeGruppe":"5",
+   "Antal":"14",
+   "Sum":"6.790,00",
+   "FakturaNr":"1082",
+   "Betaling":"28.06.2016"
+ },
+ "76": {
+   "Navn":"Kasserer Ex-table 076 - Middelfart",
+   "Email":"Permik@stribnet.dk",
+   "KundeGruppe":"9",
+   "Antal":"13",
+   "Sum":"6.305,00",
+   "FakturaNr":"1083",
+   "Betaling":"28.06.2016"
+ },
+ "77": {
+   "Navn":"Kasserer Ex-table 077 - Kruså",
+   "Email":"Toni.ravn@schmidt-auto.dk",
+   "KundeGruppe":"7",
+   "Antal":"2",
+   "Sum":"970,00",
+   "FakturaNr":"1084",
+   "Betaling":"28.06.2016"
+ },
+ "80": {
+   "Navn":"Kasserer Ex-table 080 - Roskilde",
+   "Email":"Per@blaagaard-radio.dk",
+   "KundeGruppe":"11",
+   "Antal":"13",
+   "Sum":"6.305,00",
+   "FakturaNr":"1085",
+   "Betaling":"28.06.2016"
+ },
+ "81": {
+   "Navn":"Kasserer Ex-table 081 - Aalborg",
+   "Email":"Erik@thimm.dk",
+   "KundeGruppe":"1",
+   "Antal":"6",
+   "Sum":"2.910,00",
+   "FakturaNr":"1086",
+   "Betaling":"28.06.2016"
+ },
+ "88": {
+   "Navn":"Kasserer Ex-table 088 - Brønderslev",
+   "Email":"M23271157@gmail.com",
+   "KundeGruppe":"1",
+   "Antal":"22",
+   "Sum":"10.670,00",
+   "FakturaNr":"1087",
+   "Betaling":"28.06.2016"
+ },
+ "95": {
+   "Navn":"Kasserer Ex-table 095 - Kerteminde",
+   "Email":"Kekr@km.dk",
+   "KundeGruppe":"9",
+   "Antal":"4",
+   "Sum":"1.940,00",
+   "FakturaNr":"1088",
+   "Betaling":"28.06.2016"
+ },
+ "98": {
+   "Navn":"Kasserer Ex-table 098 - Aarhus",
+   "Email":"Jan.k@enggaard.dk",
+   "KundeGruppe":"5",
+   "Antal":"13",
+   "Sum":"6.305,00",
+   "FakturaNr":"1089",
+   "Betaling":"28.06.2016"
+ },
+ "99": {
+   "Navn":"Kasserer Ex-table 099 - Rødding",
+   "Email":"Michael@holm6630.dk",
+   "KundeGruppe":"7",
+   "Antal":"4",
+   "Sum":"1.940,00",
+   "FakturaNr":"1090",
+   "Betaling":"28.06.2016"
+ },
+ "101": {
+   "Navn":"Kasserer Ex-table 101 - Hobro",
+   "Email":"Hyldevej32@gmail.com",
+   "KundeGruppe":"1",
+   "Antal":"12",
+   "Sum":"5.820,00",
+   "FakturaNr":"1091",
+   "Betaling":"28.06.2016"
+ },
+ "102": {
+   "Navn":"Kasserer Ex-table 102 - Hirtshals",
+   "Email":"Jm@seamar.dk",
+   "KundeGruppe":"1",
+   "Antal":"7",
+   "Sum":"3.395,00",
+   "FakturaNr":"1092",
+   "Betaling":"28.06.2016"
+ },
+ "104": {
+   "Navn":"Kasserer Ex-table 104 - Aars",
+   "Email":"Tba@jutlander.dk",
+   "KundeGruppe":"1",
+   "Antal":"7",
+   "Sum":"3.395,00",
+   "FakturaNr":"1093",
+   "Betaling":"28.06.2016"
+ },
+ "112": {
+   "Navn":"Kasserer Ex-table 112 - Nuuk",
+   "Email":"Nn@kigutit.gl",
+   "KundeGruppe":"15",
+   "Antal":"14",
+   "Sum":"6.790,00",
+   "FakturaNr":"1094",
+   "Betaling":"28.06.2016"
+ },
+ "115": {
+   "Navn":"Kasserer Ex-table 115 - Løgstør",
+   "Email":"Peter@bopkontor.dk",
+   "KundeGruppe":"1",
+   "Antal":"1",
+   "Sum":"485,00",
+   "FakturaNr":"1095",
+   "Betaling":"28.06.2016"
+ },
+ "121": {
+   "Navn":"Kasserer Ex-table 121 - Faaborg",
+   "Email":"Jensudenby@mail.dk",
+   "KundeGruppe":"9",
+   "Antal":"27",
+   "Sum":"13.095,00",
+   "FakturaNr":"1096",
+   "Betaling":"28.06.2016"
+ },
+ "122": {
+   "Navn":"Kasserer Ex-table 122 - Skærbæk",
+   "Email":"Orla@findahls.dk",
+   "KundeGruppe":"7",
+   "Antal":"2",
+   "Sum":"970,00",
+   "FakturaNr":"1097",
+   "Betaling":"28.06.2016"
+ },
+ "123": {
+   "Navn":"Kasserer Ex-table 123 - Vamdrup",
+   "Email":"Voss@rt123.dk",
+   "KundeGruppe":"7",
+   "Antal":"4",
+   "Sum":"1.940,00",
+   "FakturaNr":"1098",
+   "Betaling":"28.06.2016"
+ },
+ "128": {
+   "Navn":"Kasserer Ex-table 128 - Roskilde",
+   "Email":"Tons@post1.dknet.dk",
+   "KundeGruppe":"11",
+   "Antal":"17",
+   "Sum":"8.245,00",
+   "FakturaNr":"1099",
+   "Betaling":"28.06.2016"
+ },
+ "130": {
+   "Navn":"Kasserer Ex-table 130 - Frederiksborg",
+   "Email":"Nrj@al-finans.dk",
+   "KundeGruppe":"11",
+   "Antal":"18",
+   "Sum":"8.730,00",
+   "FakturaNr":"1100",
+   "Betaling":"28.06.2016"
+ },
+ "136": {
+   "Navn":"Kasserer Ex-table 136 - Glostrup",
+   "Email":"Johnloefgren@gmail.com",
+   "KundeGruppe":"15",
+   "Antal":"4",
+   "Sum":"1.940,00",
+   "FakturaNr":"1101",
+   "Betaling":"28.06.2016"
+ },
+ "144": {
+   "Navn":"Kasserer Ex-table 144 - Skive",
+   "Email":"John@vines.dk",
+   "KundeGruppe":"3",
+   "Antal":"12",
+   "Sum":"5.820,00",
+   "FakturaNr":"1102",
+   "Betaling":"28.06.2016"
+ },
+ "173": {
+   "Navn":"Kasserer Ex-table 173 - Hellerup",
+   "Email":"Felix@rekom.nu",
+   "KundeGruppe":"15",
+   "Antal":"9",
+   "Sum":"4.365,00",
+   "FakturaNr":"1103",
+   "Betaling":"28.06.2016"
+ },
+ "195": {
+   "Navn":"Kasserer Ex-table 195 - Kerteminde",
+   "Email":"Jev@fynskemedier.dk",
+   "KundeGruppe":"9",
+   "Antal":"17",
+   "Sum":"8.245,00",
+   "FakturaNr":"1104",
+   "Betaling":"28.06.2016"
+ },
+ "2015": {
+   "Navn":"Kasserer Ex-table 2015 - Xt Pepperholmen",
+   "Email":"Rbbertelsen@gmail.com",
+   "KundeGruppe":"1",
+   "Antal":"3",
+   "Sum":"1.455,00",
+   "FakturaNr":"1105",
+   "Betaling":"28.06.2016"
+ },
+ "212": {
+   "Navn":"Kasserer Ex-table 212 - Roskilde",
+   "Email":"Kontakt@kjbolig.dk",
+   "KundeGruppe":"11",
+   "Antal":"5",
+   "Sum":"2.425,00",
+   "FakturaNr":"1106",
+   "Betaling":"28.06.2016"
+ },
+ "216": {
+   "Navn":"Kasserer Ex-table 216 - Kolding",
+   "Email":"Tjl@ingenior-ne.dk",
+   "KundeGruppe":"9",
+   "Antal":"14",
+   "Sum":"6.790,00",
+   "FakturaNr":"1107",
+   "Betaling":"28.06.2016"
+ },
+ "219": {
+   "Navn":"Kasserer Ex-table 219 - Holstebro",
+   "Email":"Frmogensen@gmail.com",
+   "KundeGruppe":"3",
+   "Antal":"5",
+   "Sum":"2.425,00",
+   "FakturaNr":"1108",
+   "Betaling":"28.06.2016"
+ },
+ "221": {
+   "Navn":"Kasserer Ex-table 221 - Viborg",
+   "Email":"Kent@lihnogboi.dk",
+   "KundeGruppe":"5",
+   "Antal":"23",
+   "Sum":"11.155,00",
+   "FakturaNr":"1109",
+   "Betaling":"28.06.2016"
+ },
+ "222": {
+   "Navn":"Kasserer Ex-table 222 - Skærbæk",
+   "Email":"Larsbundgaard@mail.tele.dk",
+   "KundeGruppe":"7",
+   "Antal":"13",
+   "Sum":"6.305,00",
+   "FakturaNr":"1110",
+   "Betaling":"28.06.2016"
+ },
+ "223": {
+   "Navn":"Kasserer Ex-table 223 - Næstved",
+   "Email":"Jens@av-huset.dk",
+   "KundeGruppe":"13",
+   "Antal":"18",
+   "Sum":"8.730,00",
+   "FakturaNr":"1111",
+   "Betaling":"28.06.2016"
+ },
+ "230": {
+   "Navn":"Kasserer Ex-table 230 - Frederiksborg",
+   "Email":"Skrivtilnikolaj@hotmail.com",
+   "KundeGruppe":"11",
+   "Antal":"10",
+   "Sum":"4.850,00",
+   "FakturaNr":"1112",
+   "Betaling":"28.06.2016"
+ },
+ "232": {
+   "Navn":"Kasserer Ex-table 232 - Haderslev",
+   "Email":"Uwp@davidsen.as",
+   "KundeGruppe":"7",
+   "Antal":"18",
+   "Sum":"8.730,00",
+   "FakturaNr":"1113",
+   "Betaling":"28.06.2016"
+ },
+ "244": {
+   "Navn":"Kasserer Ex-table 244 - Skive",
+   "Email":"Ulrik@caterkokken.dk",
+   "KundeGruppe":"3",
+   "Antal":"6",
+   "Sum":"2.910,00",
+   "FakturaNr":"1114",
+   "Betaling":"28.06.2016"
+ },
+ "323": {
+   "Navn":"Kasserer Ex-table 323 - Næstved",
+   "Email":"Rasmussen@stofanet.dk",
+   "KundeGruppe":"13",
+   "Antal":"12",
+   "Sum":"5.820,00",
+   "FakturaNr":"1115",
+   "Betaling":"28.06.2016"
+ },
+ "333": {
+   "Navn":"Kasserer Ex-table 333 - Thisted",
+   "Email":"Hj@eucnordvest.dk",
+   "KundeGruppe":"3",
+   "Antal":"15",
+   "Sum":"7.275,00",
+   "FakturaNr":"1116",
+   "Betaling":"28.06.2016"
+ },
+ "640": {
+   "Navn":"Kasserer Ex-table 640 - Odense",
+   "Email":"Nt@leasy.dk",
+   "KundeGruppe":"9",
+   "Antal":"9",
+   "Sum":"4.365,00",
+   "FakturaNr":"1117",
+   "Betaling":"28.06.2016"
+ },
+ "678": {
+   "Navn":"Kasserer Ex-table 678 - Samleklub For 6,7, Og 8",
+   "Email":"Michael.olsen@live.dk",
+   "KundeGruppe":"15",
+   "Antal":"7",
+   "Sum":"3.395,00",
+   "FakturaNr":"1118",
+   "Betaling":"28.06.2016"
+ },
+ "929": {
+   "Navn":"Kasserer Ex-table 929 - Odense",
+   "Email":"Npa@aalund.as",
+   "KundeGruppe":"9",
+   "Antal":"3",
+   "Sum":"1.455,00",
+   "FakturaNr":"1119",
+   "Betaling":"28.06.2016"
+ },
+ "997": {
+   "Navn":"Kasserer Ex-table 997 -  Guldborgsund",
+   "Email":"Post@vaadrums.dk",
+   "KundeGruppe":"13",
+   "Antal":"6",
+   "Sum":"2.910,00",
+   "FakturaNr":"1120",
+   "Betaling":"28.06.2016"
+ }
+}
