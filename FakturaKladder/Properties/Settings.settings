@@ -1,0 +1,18 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="FakturaKladder.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="GrantAgreementToken" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="AppSecretToken" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">VoYkXDo7eTZPEHwBSjZuZhKK19EhVKLYajlPcfHyoMQ1</Value>
+    </Setting>
+    <Setting Name="GrantAccessUri" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">https://secure.e-conomic.com/secure/api1/requestaccess.aspx?appPublicToken=zdA0JRQ9EfkOSoQJikwC5IryB51mpzqsiUDkcU36Bgk1</Value>
+    </Setting>
+    <Setting Name="CsvFile" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+  </Settings>
+</SettingsFile>

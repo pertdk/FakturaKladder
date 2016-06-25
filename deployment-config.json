@@ -1,0 +1,9 @@
+{
+    "type": "ftp",
+    "host": "web8.gigahost.dk",
+    "username": "pert",
+    "password": "22qRR9Vh",
+    "port": 21,
+    "remotePath": "www/pert.dk/FakturaKladder",
+    "uploadOnSave": false
+}
